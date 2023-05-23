@@ -1,0 +1,16 @@
+img {
+  width: 450px;
+}
+
+
+@media screen and (max-width: 720px) {
+
+  .image {
+    text-align:center;
+  }
+
+  img {
+    width: 300px;
+
+  }
+}

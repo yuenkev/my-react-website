@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'LexendDecaMed';
+    src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'LexendDecaReg';
+    src: url(/src/Components/Fonts/LexendDeca-Regular.ttf);
+}
+
+
+.title {
+    font-family: 'LexendDecaReg';
+    font-size: 1.25em;
+}
+
+
+.copy {
+    font-family: 'LexendDecaReg';
+    color: grey;
+    font-size: 1em;
+
+}

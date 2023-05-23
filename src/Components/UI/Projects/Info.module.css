@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "LexendDecaMed";
+    src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: "LexendDecaReg";
+    src: url(/src/Components/Fonts/LexendDeca-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "LexendDecaLight";
+    src: url(/src/Components/Fonts/LexendDeca-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "LexendDecaExtraLight";
+    src: url(/src/Components/Fonts/LexendDeca-ExtraLight.ttf);
+  }
+  
+  body {
+    font-family: "LexendDecaMed";
+    margin: 0;
+    padding: 0;
+  }
+  
+  .git{
+    font-family: LexendDecaMed;
+    color: #007bff;
+    transition: all 0.35s ease-in-out;
+  }
+
+  .git:hover {
+      transform: scale(1.0);
+      color: grey;
+  }
+
+  .name {
+    font-family: LexendDecaMed;
+  }
+
+.project {
+    font-family: LexendDecaMed;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 5em;
+}
+
+.info  {
+  font-family: "LexendDecaLight";    
+  /* align it vertically */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 720px){
+
+  .name{
+    text-align: center;
+  }
+
+  .para{
+    text-align: center;
+  }
+
+  .git {
+    text-align: center;
+
+  }
+
+}

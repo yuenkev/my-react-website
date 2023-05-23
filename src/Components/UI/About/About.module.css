@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "LexendDecaMed";
+  src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+}
+
+@font-face {
+  font-family: "LexendDecaLight";
+  src: url(/src/Components/Fonts/LexendDeca-Light.ttf);
+}
+
+@font-face {
+  font-family: "LexendDecaExtraLight";
+  src: url(/src/Components/Fonts/LexendDeca-ExtraLight.ttf);
+}
+
+
+body {
+  font-family: "LexendDecaMed";
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  padding-left: 12em;
+  padding-right: 12em;
+  padding-top: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+  .about {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    display: grid;
+  }
+
+  img {
+    width: 50px;
+  }
+}

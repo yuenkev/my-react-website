@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'LexendDecaMed';
+    src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'LexendDecaReg';
+    src: url(/src/Components/Fonts/LexendDeca-Regular.ttf);
+}
+
+@font-face {
+    font-family: "LexendDecaLight";
+    src: url(/src/Components/Fonts/LexendDeca-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "LexendDecaExtraLight";
+    src: url(/src/Components/Fonts/LexendDeca-ExtraLight.ttf);
+  }
+
+.greeting {
+    font-family: 'LexendDecaLight';
+    font-size: 1.25em;
+}
+
+.reach {
+    font-family: 'LexendDecaReg';
+}

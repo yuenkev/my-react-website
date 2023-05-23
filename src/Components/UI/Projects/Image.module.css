@@ -1,0 +1,16 @@
+.image {
+  width: 500px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 720px) {
+
+  .image {
+    display: grid;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+  }
+
+}

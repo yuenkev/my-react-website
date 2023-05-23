@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'LexendDecaMed';
+    src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'LexendDecaReg';
+    src: url(/src/Components/Fonts/LexendDeca-Regular.ttf);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* makes the child containers evenly sized */
+/* .footer > * {
+    flex: 1;
+} */
+
+
+
+@media screen and (max-width: 720px) {
+    .footer {
+        display:block;
+        padding: 1em 2em;
+    }
+  }
+
+

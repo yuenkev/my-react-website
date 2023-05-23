@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'LexendDecaMed';
+    src: url(/src/Components/Fonts/LexendDeca-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'LexendDecaReg';
+    src: url(/src/Components/Fonts/LexendDeca-Regular.ttf);
+}
+
+
+
+.name{
+    font-family: 'LexendDecaMed';
+    color: #78d4f7;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 720px){
+    
+    .name{
+        font-family: 'LexendDecaMed';
+        color: #78d4f7;
+        font-size: 25px;
+    }
+}

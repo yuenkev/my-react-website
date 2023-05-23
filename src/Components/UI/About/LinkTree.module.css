@@ -1,0 +1,21 @@
+.links {
+  font-size: 3em;
+}
+
+.link {
+  padding-right: 0.5em;
+  transition: all 0.35s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1);
+  color: grey;
+}
+
+@media screen and (max-width: 720px) {
+  .links {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+  }
+}
