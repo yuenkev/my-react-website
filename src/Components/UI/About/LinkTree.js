@@ -8,7 +8,7 @@ const LinkTree = (props) => {
 
     return <div className={classes.links}> 
 
-        <a href="mailto: kevin.yuen@sheridancollege.ca" className={classes.link}><MdEmail></MdEmail></a>
+        <a href="mailto: yuenkev@sheridancollege.ca" className={classes.link}><MdEmail></MdEmail></a>
         <a href="https://www.linkedin.com/in/yuenkev/" className={classes.link}><AiFillLinkedin></AiFillLinkedin></a>
         <a href="https://github.com/yuenkev" className={classes.link}><AiFillGithub></AiFillGithub></a>
 
