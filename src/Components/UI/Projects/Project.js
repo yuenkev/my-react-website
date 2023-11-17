@@ -2,7 +2,6 @@ import { React } from "react";
 import classes from "./Project.module.css";
 import Info from "../Projects/Info";
 import Image from "../Projects/Image";
-import { Fade } from "react-awesome-reveal";
 
 const Project = (props) => {
   const projects = [
