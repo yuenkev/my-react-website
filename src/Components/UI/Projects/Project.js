@@ -2,6 +2,7 @@ import { React } from "react";
 import classes from "./Project.module.css";
 import Info from "../Projects/Info";
 import Image from "../Projects/Image";
+import { Fade } from "react-awesome-reveal";
 
 const Project = (props) => {
   const projects = [
@@ -22,10 +23,12 @@ const Project = (props) => {
   return (
     <div className={classes.project} id="project">
       {projects.map((proj) => {
-        return <div className={classes.p}>
+        return (
+        <div className={classes.p}>
           <Info name={proj.name} para={proj.para} link={proj.link}></Info>
           <Image img={proj.img}></Image>
-        </div>;
+        </div>);
+
       })}
     </div>
   );
