@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header className={classes.header} id="header"></Header>
 
-      <Fade direction="down" duration={1000}>
+      <Fade direction="down" duration={1000} triggerOnce="true">
         <About className={classes.about} ></About>
         <Project className={classes.project} id="project"></Project>
         <Footer className={classes.footer} id="footer"></Footer>
