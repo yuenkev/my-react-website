@@ -4,25 +4,33 @@ import { FaHandSparkles } from "react-icons/fa";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import LinkTree from "./LinkTree";
 
+import { Fade } from "react-awesome-reveal";
+
 const Intro = (props) => {
   return (
     <div className={classes.intro}>
-      <h1>
-        Howdy <FaHandSparkles className={classes.hand}></FaHandSparkles> , I'm
-        Kevin!
-      </h1>
+      <Fade direction="down" duration={1200} triggerOnce="true">
+        <h1>
+          Howdy <FaHandSparkles className={classes.hand}></FaHandSparkles> , I'm
+          Kevin!
+        </h1>
+      </Fade>
 
-      <h3>
-        I am a Developer/Designer passoniate about creating engaing
-        and impactful experiences.{" "}
-      </h3>
+      <Fade direction="down" duration={1000} triggerOnce="true">
+        <h3>
+          I am a Developer/Designer passoniate about creating engaing and
+          impactful experiences.{" "}
+        </h3>
 
-      <LinkTree></LinkTree>
+        <LinkTree></LinkTree>
+      </Fade>
 
-      <h4>
-        Feel free to check out my stuff!{" "}
-        <AiOutlineArrowDown></AiOutlineArrowDown>
-      </h4>
+      <Fade direction="down" duration={1200} triggerOnce="true">
+        <h4>
+          Feel free to check out my stuff!{" "}
+          <AiOutlineArrowDown></AiOutlineArrowDown>
+        </h4>
+      </Fade>
     </div>
   );
 };

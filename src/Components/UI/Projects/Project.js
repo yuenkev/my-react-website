@@ -22,10 +22,12 @@ const Project = (props) => {
   return (
     <div className={classes.project} id="project">
       {projects.map((proj) => {
-        return <div className={classes.p}>
+        return (
+        <div className={classes.p}>
           <Info name={proj.name} para={proj.para} link={proj.link}></Info>
           <Image img={proj.img}></Image>
-        </div>;
+        </div>);
+
       })}
     </div>
   );
