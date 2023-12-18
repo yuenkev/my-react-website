@@ -4,7 +4,7 @@ My React Website is a portfolio website using React. It's interactive, shows my 
 React made it easy to build and showcase everything in a simple and engaging way.
 
 ## Technologies and Libraries Used:
-HTML
-CSS
-JavaScript (ES6)
-React.js
+- HTML
+- CSS
+- JavaScript (ES6)
+- React.js
