@@ -3,9 +3,6 @@ import classes from "./Project.module.css";
 import Info from "../Projects/Info";
 import Image from "../Projects/Image";
 
-import img1 from "./Images/expenseTracker.png";
-import img2 from "./Images/clientWeb.png";
-import img3 from "./Images/volTracker.png";
 
 const Project = (props) => {
   const projects = [
